@@ -17,9 +17,11 @@ Window is a popup dialog window which has ex-style NOACTIVATED, so that the focu
 
 Simulate_keypress: 
 
-normal key: virtual key code with key down and key up
-shift+key: shift key down, virtual key code key down, virtual key code key up, shift key up
-caps+key: shift key down, virtual key code key down, virtual key code key up, shift key up
+- normal key: virtual key code with key down and key up
+
+- shift+key: shift key down, virtual key code key down, virtual key code key up, shift key up
+
+- caps+key: shift key down, virtual key code key down, virtual key code key up, shift key up
 
 touchscreen friendly. To avoid non-key area touch which take away the focus, all non-key area is covered 100% by the keys.
 
