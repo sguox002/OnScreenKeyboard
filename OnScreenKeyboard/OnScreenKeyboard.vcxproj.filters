@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OnScreenKeyboard.ico">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\OnScreenKeyboard.rc2">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OnScreenKeyboard.cpp" />
+    <ClCompile Include="OnScreenKeyboardDlg.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="glwin.cpp" />
+    <ClCompile Include="opengl.cpp" />
+    <ClCompile Include="OutlineFont.cpp" />
+    <ClCompile Include="bitmap.cpp" />
+    <ClCompile Include="key.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OnScreenKeyboard.h" />
+    <ClInclude Include="OnScreenKeyboardDlg.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="key.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OnScreenKeyboard.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
